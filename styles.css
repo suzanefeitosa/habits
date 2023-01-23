@@ -1,9 +1,8 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
+
 }
 
 body {
@@ -19,7 +18,8 @@ header {
     justify-content: space-between;
     padding: 48px;
     position: fixed;
-   width: 100%;
+    width: 100%;
+    background-color: #09090a;
 }
 
 button {
@@ -39,9 +39,9 @@ button {
 
 form {
 
-display: flex;
-padding: 182px 48px 48px;
-width: fit-content;
+    display: flex;
+    padding: 182px 48px 48px;
+    width: fit-content;
 
 
 
@@ -64,41 +64,42 @@ width: fit-content;
 }
 
 .days {
-   display: flex; 
-   gap: 48px;
-   margin-left: 32px;
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
 }
 
 .day {
- display: flex;
- gap: 24px;
- flex-direction: column;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
 }
 
 .day div {
-margin-bottom: 8px;
-font-family: 'Roboto Mono';
-font-size: 16px;
-line-height: 125%;
-color: #A1A1AA;
-text-align: center;
+    margin-bottom: 8px;
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+    line-height: 125%;
+    color: #A1A1AA;
+    text-align: center;
 }
 
 input {
 
-appearance: none;  
--webkit-appearance: none;
-width: 64px;
-height: 64px;
-border: 2px solid #27272A;
-border-radius: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #27272A;
+    border-radius: 8px;
 
 }
+
 /*pseudo selector */
 
 input:checked {
-background: #8B5CF6;
-border: 2px solid #A78BFA;
+    background: #8B5CF6;
+    border: 2px solid #A78BFA;
 }
 
 /* media queries */
