@@ -101,6 +101,8 @@ input:checked {
     border: 2px solid #A78BFA;
 }
 
+/*scrollbar */
+
 ::-webkit-scrollbar {
     width: 10px;
 
