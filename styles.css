@@ -99,6 +99,18 @@ input:checked {
     border: 2px solid #A78BFA;
 }
 
+/*scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #8B5CF6; 
+}
+
 /* media queries */
 
 @media (max-width: 570px) {
